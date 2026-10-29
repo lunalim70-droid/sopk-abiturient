@@ -723,20 +723,6 @@ html.hc .tile, html.hc .doc, html.hc .st-card, html.hc .rv, html.hc .fact, html.
   .nav-in .menu-btn { font-size: 15px; min-height: 44px; }
 }
 
-/* TILES FLOAT-IN */
-@keyframes tileIn { from { opacity: 0; transform: translateY(34px) scale(.96); } 60% { opacity: 1; } to { opacity: 1; transform: none; } }
-@media (prefers-reduced-motion: no-preference) {
-  #home .tile, #home .fact { animation: tileIn .7s cubic-bezier(.2,.8,.2,1.15) both; }
-  #home .fact:nth-child(1) { animation-delay: .15s; } #home .fact:nth-child(2) { animation-delay: .25s; }
-  #home .fact:nth-child(3) { animation-delay: .35s; } #home .fact:nth-child(4) { animation-delay: .45s; }
-  #home .tile:nth-child(1) { animation-delay: .5s; } #home .tile:nth-child(2) { animation-delay: .58s; }
-  #home .tile:nth-child(3) { animation-delay: .66s; } #home .tile:nth-child(4) { animation-delay: .74s; }
-  #home .tile:nth-child(5) { animation-delay: .82s; } #home .tile:nth-child(6) { animation-delay: .9s; }
-  #home .tile:nth-child(7) { animation-delay: .98s; } #home .tile:nth-child(8) { animation-delay: 1.06s; }
-  #home .tile:nth-child(9) { animation-delay: 1.14s; } #home .tile:nth-child(10) { animation-delay: 1.22s; }
-  #home .tile:nth-child(11) { animation-delay: 1.3s; } #home .tile:nth-child(12) { animation-delay: 1.38s; }
-  #home .tile:hover, #home .tile:focus-visible { animation: none; }
-}
 </style>
 </head>
 <body>
